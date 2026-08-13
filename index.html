@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Gabbour - Developer and Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="grid-overlay" id="gridOverlay">
+        <div class="grid-overlay-inner">
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">C<span>·</span>GABBOUR</div>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="grid-toggle" id="themeToggle" aria-pressed="false">
+                    <span id="themeIcon">⏾</span> <span id="themeLabel">DARK</span>
+                </button>
+
+                <button class="grid-toggle" id="gridToggle" aria-pressed="false">
+                    <span class="dot"></span> GRID
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="eyebrow">45.42°N, 75.70°W — Dev + Design</div>
+        <h1>"Design is not just what it looks like and feels like. Design is how it <em>works</em>."</h1><h5><br> -Steve Jobs</h5>
+        <div class="hero-sub">
+            <p>Hey there! I'm a web developer passionate about bulding modern, performant and user-friendly web applications.</p>
+            <div class="hero-meta">
+            <div><strong>Based</strong> — Ottawa, Canada</div>
+            <div><strong>Stack</strong> — React, TypeScript, Figma, Node</div>
+            <div><strong>Available</strong> — Q4 2026</div>
+            <div><strong>Toggle</strong> — try the grid button above ↑</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="work">
+        <div class="section-head">
+            <div>
+            <div class="section-tag">Sec. 01 — Selected work</div>
+                <h2>Recent projects</h2>
+            </div>
+            <!-- <div class="section-tag">04 shown / 12 total</div> -->
+        </div>
+ 
+        <div class="work-grid">
+            <a class="work-card" href="https://example.com/projects/northwind-studio" target="_blank" rel="noopener noreferrer">
+                <span class="work-arrow">↗</span>
+                <div class="work-fig"><span>PROJ. 01</span><span class="year">2026</span></div>
+                <h3>Northwind Studio</h3>
+                <p>Full rebrand and site rebuild for a small architecture practice — identity system, component library, and a headless CMS build.</p>
+                <div class="tags"><span class="tag design">Brand</span><span class="tag dev">Next.js</span><span class="tag design">Design system</span></div>
+            </a>
+ 
+            <a class="work-card" href="https://example.com/projects/ledger" target="_blank" rel="noopener noreferrer">
+                <span class="work-arrow">↗</span>
+                <div class="work-fig"><span>PROJ. 02</span><span class="year">2025</span></div>
+                <h3>Ledger</h3>
+                <p>A budgeting app for freelancers. Designed the interaction model and built the frontend end-to-end, including offline sync.</p>
+                <div class="tags"><span class="tag dev">React Native</span><span class="tag dev">SQLite</span><span class="tag design">UX</span></div>
+            </a>
+ 
+            <a class="work-card" href="https://example.com/projects/fieldnote" target="_blank" rel="noopener noreferrer">
+                <span class="work-arrow">↗</span>
+                <div class="work-fig"><span>PROJ. 03</span><span class="year">2025</span></div>
+                <h3>Fieldnote</h3>
+                <p>A component library and documentation site for a mid-size SaaS team, built to close the gap between design tokens and code.</p>
+                <div class="tags"><span class="tag dev">TypeScript</span><span class="tag design">Design tokens</span></div>
+            </a>
+ 
+            <a class="work-card" href="https://example.com/projects/marigold-market" target="_blank" rel="noopener noreferrer">
+                <span class="work-arrow">↗</span>
+                <div class="work-fig"><span>PROJ. 04</span><span class="year">2024</span></div>
+                <h3>Marigold Market</h3>
+                <p>E-commerce experience for a local goods marketplace — custom checkout flow, product photography direction, and performance work.</p>
+                <div class="tags"><span class="tag design">E-commerce</span><span class="tag dev">Shopify</span></div>
+            </a>
+        </div>
+    </section>
+
+ 
+    <section class="section" id="about">
+        <div class="section-head">
+            <div>
+            <div class="section-tag">SEC. 02 — Profile</div>
+            <h2>About</h2>
+            </div>
+        </div>
+        <div class="about-grid">
+            <div class="about-meta">
+            <div class="row"><span class="label">Role</span><span class="value">Developer & Designer</span></div>
+            <div class="row"><span class="label">Experience</span><span class="value">7 years</span></div>
+            <div class="row"><span class="label">Tools</span><span class="value">Figma, VS Code, Git, Github, Linux/Command Line</span></div>
+            <div class="row"><span class="label">Languages</span><span class="value">JS, HTML5, CSS3, C++, Java, Python</span></div>
+            <div class="row"><span class="label">Currently</span><span class="value">Freelance, Ottawa</span></div>
+        </div>
+        <div class="about-body">
+            <p>I don't think of design and development as separate jobs — they're one continuous decision about how something should work.</p>
+            <p>My journey into software started with a deep curiosity for how digital tools work under the hood.  Since then, I've spend my time diving into full-stack development - bridging the gap between robust back-end logic and responsive front-end interfaces.</p>
+            <h3>What I Focus On</h3>
+            <p>When building web projects, three principles guide my process:</p>
+            <ul>
+                <li><p id="about-list"><b>Clean Architecture</b>: Writing modular, readable, and maintainable code that scales smoothly.</p></li>
+                <li><p id="about-list"><b>Performance & UX</b>: Optimizing assets, reducing render time, and ensuring interfaces feel fluid across all devices.</p></li>
+                <li><p id="about-list"><b>Continuous Growth</b>: Exploring new frameworks and tooling to keep expanding what I can build.</p></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+
+<footer id="contact">
+  <div class="footer-cta">
+    <div class="section-tag">SEC. 03 — Get in touch</div>
+    <h2>Let's build<br>something.</h2>
+    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="670ff0a6-cce5-4690-8fa1-e5419bf801de">
+        <div class="form-row">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="4" placeholder="What are you working on?" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send message →</button>
+        <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Chris Gabbour</span>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Reading</a>
+    </div>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
